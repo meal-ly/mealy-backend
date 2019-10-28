@@ -1,28 +1,33 @@
-const { recipesMock } = require('../utils/mocks/recipes');
+const MongoLib = require('../lib/mongo');
 
 class RecipesService {
-  async getRecipes() {
-    const recipes = await Promise.resolve(recipesMock);
+  constructor() {
+    this.collection = 'recipes';
+    this.mongoDB = new MongoLib();
+  }
+  async getRecipes({ tags }) {
+    const query = tags && {tags: { $in: tags }};
+    const recipes = await this.mongoDB.getAll(this.collection, query);
     return recipes || [];
   }
 
-  async getRecipe() {
-    const recipe = await Promise.resolve(recipesMock[0]);
+  async getRecipe({ recipeId }) {
+    const recipe = await this.mongoDB.get(this.collection, recipeId);
     return recipe || {};
   }
 
-  async createRecipe() {
-    const createdRecipeId = await Promise.resolve(recipesMock[0].id);
+  async createRecipe({ recipe }) {
+    const createdRecipeId = await this.mongoDB.create(this.collection, recipe);
     return createdRecipeId;
   }
 
-  async updateRecipe() {
-    const updatedRecipeId = await Promise.resolve(recipesMock[0].id);
+  async updateRecipe({ recipeId, recipe } = {}) {
+    const updatedRecipeId = await this.mongoDB.update(this.collection, recipeId, recipe);
     return updatedRecipeId;
   }
 
-  async deleteRecipe() {
-    const deletedRecipeId = await Promise.resolve(recipesMock[0].id);
+  async deleteRecipe({ recipeId }) {
+    const deletedRecipeId = this.mongoDB.delete(this.collection, recipeId);
     return deletedRecipeId;
   }
 }
