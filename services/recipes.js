@@ -16,17 +16,17 @@ class RecipesService {
     return recipe || {};
   }
 
-  async createMovie({ recipe }) {
+  async createRecipe({ recipe }) {
     const createdRecipeId = await this.mongoDB.create(this.collection, recipe);
     return createdRecipeId;
   }
 
-  async updateMovie({ recipeId, recipe } = {}) {
+  async updateRecipe({ recipeId, recipe } = {}) {
     const updatedRecipeId = await this.mongoDB.update(this.collection, recipeId, recipe);
     return updatedRecipeId;
   }
 
-  async deleteMovie({ recipeId }) {
+  async deleteRecipe({ recipeId }) {
     const deletedRecipeId = this.mongoDB.delete(this.collection, recipeId);
     return deletedRecipeId;
   }
