@@ -4,6 +4,8 @@ const app = express();
 const { config } = require('./config/index');
 const mealyApi = require('./routes/recipes');
 
+app.use(express.json());
+
 mealyApi(app);
 
 app.listen(config.port, function() {
