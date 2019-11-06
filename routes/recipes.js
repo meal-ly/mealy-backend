@@ -13,6 +13,8 @@ function recipesApi(app) {
     try {
       const recipes = await recipesService.getRecipes({ tags });
 
+      throw new Error("Error fetching recipes");
+
       res.status(200).json({
         data: recipes,
         message: 'Recipes listed'
