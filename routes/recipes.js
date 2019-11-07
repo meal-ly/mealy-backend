@@ -1,6 +1,10 @@
 const express = require('express');
 const RecipesService = require('../services/recipes');
 
+const { recipeIdSchema, createRecipeSchema, updateRecipeSchema } = require("../utils/schemas/recipes");
+const validationHandler = require("../utils/middleware/validationHandler");
+
+
 function recipesApi(app) {
   const router = express.Router();
 
@@ -13,7 +17,7 @@ function recipesApi(app) {
     try {
       const recipes = await recipesService.getRecipes({ tags });
 
-      throw new Error("Error fetching recipes");
+      // throw new Error("Error fetching recipes");
 
       res.status(200).json({
         data: recipes,
@@ -24,7 +28,7 @@ function recipesApi(app) {
     }
   });
 
-  router.get("/:recipeId", async function(req, res, next) {
+  router.get("/:recipeId", validationHandler({recipeId: recipeIdSchema}, "params"), async function(req, res, next) {
     const { recipeId } = req.params;
     try {
       const recipes = await recipesService.getRecipe({ recipeId });
@@ -38,7 +42,7 @@ function recipesApi(app) {
     }
   });
 
-  router.post("/", async function(req, res, next) {
+  router.post("/", validationHandler(createRecipeSchema), async function(req, res, next) {
     const { body: recipe } = req;
     try {
       const createdRecipeId = await recipesService.createRecipe({ recipe });
@@ -52,7 +56,7 @@ function recipesApi(app) {
     }
   });
 
-  router.put("/:recipeId", async function(req, res, next) {
+  router.put("/:recipeId", validationHandler({recipeId: recipeIdSchema}, "params"), validationHandler(updateRecipeSchema), async function(req, res, next) {
     const { body: recipe } = req;
     const { recipeId } = req.params;
     try {
@@ -67,7 +71,7 @@ function recipesApi(app) {
     }
   });
 
-  router.delete("/:recipeId", async function(req, res, next) {
+  router.delete("/:recipeId", validationHandler({recipeId: recipeIdSchema}, "params"), async function(req, res, next) {
     const { recipeId } = req.params;
     try {
       const deletedRecipeId = await recipesService.deleteRecipe({ recipeId });
