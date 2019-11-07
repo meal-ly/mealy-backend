@@ -24,7 +24,7 @@ function usersApi(app) {
     }
   });
 
-  router.get("/:userId", validationHandler({userId: userIdSchema}, "params"), async function(req, res, next) {
+  router.get("/:userId", validationHandler(userIdSchema, "params"), async function(req, res, next) {
     const { userId } = req.params;
     try {
       const users = await usersService.getUser({ userId });
@@ -52,7 +52,7 @@ function usersApi(app) {
     }
   });
 
-  router.put("/:userId", validationHandler({userId: userIdSchema}, "params"), validationHandler(updateUserSchema), async function(req, res, next) {
+  router.put("/:userId", validationHandler(userIdSchema, "params"), validationHandler(updateUserSchema), async function(req, res, next) {
     const { body: user } = req;
     const { userId } = req.params;
     try {
@@ -67,7 +67,7 @@ function usersApi(app) {
     }
   });
 
-  router.delete("/:userId", validationHandler({userId: userIdSchema}, "params"), async function(req, res, next) {
+  router.delete("/:userId", validationHandler(userIdSchema, "params"), async function(req, res, next) {
     const { userId } = req.params;
     try {
       const deletedUserId = await usersService.deleteUser({ userId });

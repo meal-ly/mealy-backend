@@ -1,6 +1,8 @@
 const joi = require("@hapi/joi");
 
-const recipeIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
+const recipeIdSchema = joi.object({
+  recipeId: joi.string().regex(/^[0-9a-fA-F]{24}$/)
+});
 const recipeTitleSchema = joi.string().max(50);
 const recipeDescriptionSchema = joi.string().max(300);
 const recipeImgUrlSchema = joi.string().uri();
@@ -20,7 +22,7 @@ const recipeIngredientsSchema = joi.array().items(joi.object({
   }),
 }));
 
-const createRecipeSchema = {
+const createRecipeSchema = joi.object({
   title: recipeTitleSchema.required(),
   description: recipeDescriptionSchema.required(),
   imgUrl: recipeImgUrlSchema.required(),
@@ -29,9 +31,9 @@ const createRecipeSchema = {
   likes: recipeLikesSchema.required(),
   tag: recipeTagSchema.required(),
   ingredients: recipeIngredientsSchema.required(),
-}
+});
 
-const updateRecipeSchema = {
+const updateRecipeSchema = joi.object({
   title: recipeTitleSchema,
   description: recipeDescriptionSchema,
   imgUrl: recipeImgUrlSchema,
@@ -40,7 +42,7 @@ const updateRecipeSchema = {
   likes: recipeLikesSchema,
   tag: recipeTagSchema,
   ingredients: recipeIngredientsSchema,
-}
+});
 
 module.exports = {
   recipeIdSchema,
