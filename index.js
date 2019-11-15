@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require("cors");
 const app = express();
 
 const { config } = require('./config/index');
@@ -8,6 +9,8 @@ const usersApi = require('./routes/users');
 const { logErrors, errorHandler, wrapErrors } = require('./utils/middleware/errorHandlers')
 
 const notFoundhandler = require("./utils/middleware/notFoundHandler");
+
+app.use(cors());
 
 // Body parser
 app.use(express.json());
