@@ -1,0 +1,915 @@
+[
+  {
+    "title": "Avena de chia",
+    "description": "Esta receta contiene todo lo que se requiere para empezar el día con energía y evitar picar entre horas. Es rica en proteínas, vitaminas, minerales y fibra necesarias para activar nuestro metabolismo y aumentar la sensación de saciedad durante el resto de la jornada. Por la facilidad de preparación es una alternativa perfecta para todos aquellos que no tienen mucho tiempo para elaborar otros tipos de desayunos.",
+    "instructions": "Cocina la avena, las semillas de chía, el agua, la vainilla y la crema de vainilla en una olla a fuero medio, durante 5 minutos hasta que el líquido sea completamente absorbido. Después añade las claras de huevo, revolviendo la masa cada vez que agregas las claras. Déjalo cocinar durante uno o dos minutos; apaga el fuego y deja que se enfríe. Prepara el topping al mezclar la mantequilla de maní, la proteína y el agua en un pequeño molde. Finalmente coloca la avena con el topping y las fresas cortadas.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/avenadechia.png",
+    "time": {
+      "number": 30,
+      "unit": "mins"
+    },
+    "people": 1,
+    "likes": 3,
+    "tag": "desayuno",
+    "ingredients": [
+      {
+        "name": "Agua",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Avena",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Chía",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 100
+      },
+      {
+        "name": "Crema de vainilla",
+        "quantity": {
+          "number": 30,
+          "unit": "gotas"
+        },
+        "price": 1500
+      },
+      {
+        "name": "Claras de huevo",
+        "quantity": {
+          "number": 4,
+          "unit": "cucharadas"
+        },
+        "price": 500
+      },
+      {
+        "name": "Fresas",
+        "quantity": {
+          "number": 3,
+          "unit": ""
+        },
+        "price": 1500
+      },
+      {
+        "name": "Mantequilla de maní",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "title": "Hotcake de mantequilla de maní",
+    "description": "Esta receta es para preparar una torta similar a un crepe, pero más gruesa, que se cubre con dulce de leche, miel y mermelada. También se utiliza para preparaciones saladas, en este caso acompañada de mantequilla de maní.",
+    "instructions": "Rocía un sartén con aceite de coco a fuego medio. Por mientras, en un molde, tritura el plátano hasta hacerlo una masa suave; después añade los dos huevos hasta convertirlo en una mezcla homogénea. Finalmente, también mezcla las dos cucharadas de harina de maní junto con dos cucharadas de hotcakes. La masa debe ser más delgada que los hotcakes regulares. Después unta en el sartén pequeños pedazos de la masa y déjalos cocinarse durante un minuto.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/hotcakemani.png",
+    "time": {
+      "number": 20,
+      "unit": "mins"
+    },
+    "people": 1,
+    "likes": 9,
+    "tag": "desayuno",
+    "ingredients": [
+      {
+        "name": "Banano",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 500
+      },
+      {
+        "name": "Huevos",
+        "quantity": {
+          "number": 2,
+          "unit": ""
+        },
+        "price": 1200
+      },
+      {
+        "name": "Mantequilla de maní",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Harina de maní",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Leche de almendras",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 1000
+      }
+    ]
+  },
+  {
+    "title": "Smoothie de avena con chocolate",
+    "description": "Receta de batido rico, sano y fácil de preparar con avena y chocolate . Receta sin lactosa. Con la fibra de la avena conseguimos un smoothie que nos va a mantener saciados durante mucho tiempo.",
+    "instructions": "Coloca todos los ingredientes en la licuadora hasta que se alcance la consistencia deseada.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/smoothieavena.png",
+    "time": {
+      "number": 5,
+      "unit": "mins"
+    },
+    "people": 1,
+    "likes": 6,
+    "tag": "desayuno",
+    "ingredients": [
+      {
+        "name": "Banano",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 500
+      },
+      {
+        "name": "Yogurt",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Avena",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Chocolate en polvo",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 1500
+      },
+      {
+        "name": "Crema de vainilla",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 500
+      },
+      {
+        "name": "Hielo",
+        "quantity": {
+          "number": 5,
+          "unit": "cubos"
+        },
+        "price": 500
+      }
+    ]
+  },
+  {
+    "title": "Quiche de jitomate y col",
+    "description": "Esta receta es un tipo de tarta salada que se elabora principalmente con una preparación de huevos batidos y crema de leche mezclada con verduras cortadas, y/o productos cárnicos (tocineta, jamón en tacos) con la que se rellena un molde.",
+    "instructions": "Precalienta el horno a 160ºC y rocía el sartén con aceite de coco. En la estufa, coloca el sartén a fuego medio durante uno o dos minutos. Saltea la col y la sal durante cinco minutos, o hasta que la col adquiera un color verde oscuro. Después colócalo a lado. En un molde grande, mezcla las claras de huevo hasta hacer una mezcla espumosa, añade la albahaca, el tomillo, el romero y el pimiento. Extiende la col encima del sartén, repartiendo los jitomates, el queso y, hasta el final, las claras de huevo. Hornéalo durante 45 minutos o hasta que el centro esté cocinado. Déjalo enfriar durante cinco minutos.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/quiche.png",
+    "time": {
+      "number": 50,
+      "unit": "mins"
+    },
+    "people": 2,
+    "likes": 12,
+    "tag": "desayuno",
+    "ingredients": [
+      {
+        "name": "Coles",
+        "quantity": {
+          "number": 2,
+          "unit": "rebanadas"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Sal",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Claras de huevo",
+        "quantity": {
+          "number": 15,
+          "unit": ""
+        },
+        "price": 5000
+      },
+      {
+        "name": "Tomillo seco",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 1500
+      },
+      {
+        "name": "Romero triturado",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 500
+      },
+      {
+        "name": "Pimiento de cayena",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 500
+      },
+      {
+        "name": "Jitomate romano",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 2000
+      },
+      {
+        "name": "Queso mozzarella",
+        "quantity": {
+          "number": 150,
+          "unit": "gramos"
+        },
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "title": "Smoothie de mango y frutos salvajes",
+    "description": "Suele tener una consistencia parecida a un batido pero algo más espeso. Se diferencia principalmente del resto de productos del mismo sector por su cremosidad. Se le suele añadir leche, frutas o bien yogurt natural para enriquecerlo con proteínas.",
+    "instructions": "Precalienta el horno a 160ºC y rocía el sartén con aceite de coco. En la estufa, coloca el sartén a fuego medio durante uno o dos minutos. Saltea la col y la sal durante cinco minutos, o hasta que la col adquiera un color verde oscuro. Después colócalo a lado. En un molde grande, mezcla las claras de huevo hasta hacer una mezcla espumosa, añade la albahaca, el tomillo, el romero y el pimiento. Extiende la col encima del sartén, repartiendo los jitomates, el queso y, hasta el final, las claras de huevo. Hornéalo durante 45 minutos o hasta que el centro esté cocinado. Déjalo enfriar durante cinco minutos.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/smoothiemango.png",
+    "time": {
+      "number": 10,
+      "unit": "mins"
+    },
+    "people": 3,
+    "likes": 18,
+    "tag": "desayuno",
+    "ingredients": [
+      {
+        "name": "Mango",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 2000
+      },
+      {
+        "name": "Leche",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Frambuesa",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 5000
+      },
+      {
+        "name": "Semillas de calabaza",
+        "quantity": {
+          "number": 4,
+          "unit": "cucharadas"
+        },
+        "price": 1500
+      },
+      {
+        "name": "Hielo",
+        "quantity": {
+          "number": 8,
+          "unit": "cubos"
+        },
+        "price": 500
+      },
+      {
+        "name": "Granola",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1500
+      }
+    ]
+  },
+  {
+    "title": "Migas del pastor",
+    "description": "Las migas de pastor es uno de los platos más tradicionales en la gastronomía castellanomanchega. Tradicionalmente considerado un plato de pastores, las migas suelen acompañarse de uvas, melón o pepino: cualquier contrapunto dulce al sabor saladoLas migas de pastor es uno de los platos más tradicionales en la gastronomía castellanoLas migas de pastor es uno de los platos más tradicionales en la gastronomía castellanomanchega.",
+    "instructions": "Desmigamos 24h antes el pan en trozos pequeños. Al día siguiente, esparcimos en una fuente amplia las migas, regamos con agua y tapamos con un paño húmedo. Cortamos la panceta en dados y el chorizo en rodajas. Calentamos aceite en una cazuela grande. Sofreímos los ajos enteros. En la misma sartén sofreímos la panceta y la retiramos. Sofreímos el chorizo y retiramos. provecharemos la grasa de la panceta y el chorizo para freír el pan con las hojas de tomillo frescas. No paramos de remover durante 15-20 min. Añadimos la panceta y el chorizo reservado y lo mezclamos. En una sartén freímos los huevos. Serviremos en cazuela de barro con las migas debajo y los huevo por encima.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/migas.png",
+    "time": {
+      "number": 1.5,
+      "unit": "hs"
+    },
+    "people": 4,
+    "likes": 28,
+    "tag": "Almuerzo",
+    "ingredients": [
+      {
+        "name": "Chorizo",
+        "quantity": {
+          "number": 150,
+          "unit": "gramos"
+        },
+        "price": 5000
+      },
+      {
+        "name": "Panceta",
+        "quantity": {
+          "number": 150,
+          "unit": "gramos"
+        },
+        "price": 10000
+      },
+      {
+        "name": "Dientes de ajo",
+        "quantity": {
+          "number": 5,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Pimentón dulce",
+        "quantity": {
+          "number": 3,
+          "unit": "gramos"
+        },
+        "price": 1500
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 5000
+      },
+      {
+        "name": "Huevos",
+        "quantity": {
+          "number": 4,
+          "unit": ""
+        },
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "title": "Tostadas de aguacate",
+    "description": "Esta receta jamás falla. Pan integral, plata molida, sal rosada, hortalizas y limón. Es espectacular y muy llenador.",
+    "instructions": "Con una cuchara, vierta el aguacate en cada pan tostado y aplástelo ligeramente con un tenedor, cuchara o cuchillo. Use la cantidad de aguacate que prefiera. A veces uso 1/2 aguacate dividido en 2 piezas, a veces uso 1/2 aguacate en cada pieza. Solo depende del tamaño. Decora con tus ingredientes favoritos. ",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/tostadas.png",
+    "time": {
+      "number": 15,
+      "unit": "mins"
+    },
+    "people": 1,
+    "likes": 20,
+    "tag": "Almuerzo",
+    "ingredients": [
+      {
+        "name": "Pan blanco o Integral",
+        "quantity": {
+          "number": 1,
+          "unit": "rebanada"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Sal",
+        "quantity": {
+          "number": 10,
+          "unit": "gramos"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Limón",
+        "quantity": {
+          "number": 1,
+          "unit": "rodaja"
+        },
+        "price": 300
+      }
+    ]
+  },
+  {
+    "title": "Quesadilla vegetariana de espinaca",
+    "description": "Es un platillo mexicano que consiste en una tortilla de maíz, o también de trigo, doblada por la mitad que, dependiendo de la región, puede estar rellena de queso o de otros ingredientes.",
+    "instructions": "Con una cuchara, vierta el aguacate en cada pan tostado y aplástelo ligeramente con un tenedor, cuchara o cuchillo. Use la cantidad de aguacate que prefiera. A veces uso 1/2 aguacate dividido en 2 piezas, a veces uso 1/2 aguacate en cada pieza. Solo depende del tamaño. Decora con tus ingredientes favoritos. ",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/quesadilla.png",
+    "time": {
+      "number": 35,
+      "unit": "mins"
+    },
+    "people": 3,
+    "likes": 14,
+    "tag": "Almuerzo",
+    "ingredients": [
+      {
+        "name": "Tortillas de harina",
+        "quantity": {
+          "number": 4,
+          "unit": ""
+        },
+        "price": 4000
+      },
+      {
+        "name": "Sal",
+        "quantity": {
+          "number": 10,
+          "unit": "gramos"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Mantequilla",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Diente de ajo",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Espinaca",
+        "quantity": {
+          "number": 7,
+          "unit": "tazas"
+        },
+        "price": 10000
+      }
+    ]
+  },
+  {
+    "title": "Fideos de zapallito italiano con pesto",
+    "description": "¿Te fascinan las pastas, pero te sientes culpable cada vez que las comes? Esta opción vegana es maravillosa. No estarás consumiendo azúcares ni grasas. Fideos de zucchini, una delicia.",
+    "instructions": "Coloque las hojas de col rizada, la albahaca y la sal en un procesador de alimentos equipado con el accesorio de cuchilla. Procese hasta que la mezcla de col rizada esté completamente picada y casi en forma de pasta. Mientras el procesador de alimentos todavía está funcionando, rocíe el aceite de oliva muy lentamente. Cuando se incorpora todo el aceite, apague el procesador de alimentos. Agregue los piñones y el ajo y pulse hasta que la mezcla se combine pero todavía muy granulada, de 10 a 15 pulsos. Agregue el queso rallado y pulse solo para combinar, 3 a 5 pulsos. Necesitarás ⅓ taza de pesto para esta receta. Guarde el resto en un recipiente hermético en el refrigerador por hasta 5 días o congélelo por hasta 3 meses.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/fideos.png",
+    "time": {
+      "number": 1.5,
+      "unit": "hs"
+    },
+    "people": 4,
+    "likes": 14,
+    "tag": "Almuerzo",
+    "ingredients": [
+      {
+        "name": "Calabecines",
+        "quantity": {
+          "number": 4,
+          "unit": ""
+        },
+        "price": 8000
+      },
+      {
+        "name": "Sal",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Mantequilla",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Diente de ajo",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Hojas frescas de albahaca",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 10000
+      },
+      {
+        "name": "Queso parmesano rayado",
+        "quantity": {
+          "number": 3,
+          "unit": "onzas"
+        },
+        "price": 3500
+      },
+      {
+        "name": "Hojas de col",
+        "quantity": {
+          "number": 3,
+          "unit": "tazas"
+        },
+        "price": 10000
+      },
+      {
+        "name": "Tomates cherry",
+        "quantity": {
+          "number": 6,
+          "unit": ""
+        },
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "title": "Wrap de pollo al estilo asiático",
+    "description": "Rico y fácil de preparar, con este wrap de pollo con especies y vegetales, envuelto en hoja de lechuga, se volverá tu almuerzo predilecto.",
+    "instructions": "Cocinar el pollo. Calienta el aceite de oliva en una sartén grande a fuego medio. Agregue el pollo molido y descomponga los grumos grandes. Cocine, revolviendo ocasionalmente hasta que el pollo se dore. Agregue los anacardos y cocine, revolviendo, durante 1-2 minutos, luego agregue la salsa y cocine durante 1-2 minutos más. Agregue las cebollas verdes. Retire del fuego y coloque la mezcla de pollo en las hojas de lechuga. Cubra con cilantro picado, anacardos, zanahorias ralladas y sirva.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/wrap.png",
+    "time": {
+      "number": 1.5,
+      "unit": "hs"
+    },
+    "people": 4,
+    "likes": 12,
+    "tag": "Almuerzo",
+    "ingredients": [
+      {
+        "name": "Agua",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 800
+      },
+      {
+        "name": "Sal",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Vinagre",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Diente de ajo",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Pollo molido",
+        "quantity": {
+          "number": 1,
+          "unit": "libra"
+        },
+        "price": 10000
+      },
+      {
+        "name": "Queso parmesano rayado",
+        "quantity": {
+          "number": 3,
+          "unit": "onzas"
+        },
+        "price": 3500
+      },
+      {
+        "name": "Hojas de col",
+        "quantity": {
+          "number": 3,
+          "unit": "tazas"
+        },
+        "price": 10000
+      },
+      {
+        "name": "Hojas de lechuga",
+        "quantity": {
+          "number": 16,
+          "unit": ""
+        },
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "title": "Galletas de avena",
+    "description": "Deliciosas, no llevan nada de azúcar, ni siguiera dátiles y se las comen a mordiscos. Un éxito garantizado para empezar en la vida de realfooding. ¿Quieres la receta? Aquí la tienes.",
+    "instructions": "Tritura el plátano, mezcla, forma las galletas y hornea 15 min a 200 grados.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/galletas.png",
+    "time": {
+      "number": 1.5,
+      "unit": "hs"
+    },
+    "people": 5,
+    "likes": 19,
+    "tag": "onces",
+    "ingredients": [
+      {
+        "name": "Bananos",
+        "quantity": {
+          "number": 3,
+          "unit": ""
+        },
+        "price": 1500
+      },
+      {
+        "name": "Avena",
+        "quantity": {
+          "number": 160,
+          "unit": "gramos"
+        },
+        "price": 8000
+      },
+      {
+        "name": "Chips de chocolate",
+        "quantity": {
+          "number": 150,
+          "unit": "gramos"
+        },
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "title": "Bocata de requesón vegano",
+    "description": "Es un trozo de pan o un panecillo en cuyo centro se ha colocado algún tipo de alimento. Normalmente se suele abrir el pan longitudinalmente en dos mitades.",
+    "instructions": "Tritura los anacardos con el aceite de oliva y el zumo de limón. Añade los condimentos y mezcla hasta que quede una crema homogénea. Unta este requesón de anacardos en las rebanadas de pan. Corta el membrillo en láminas y ponlo en el centro del bocadillo.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/bocata.png",
+    "time": {
+      "number": 10,
+      "unit": "mins"
+    },
+    "people": 2,
+    "likes": 23,
+    "tag": "onces",
+    "ingredients": [
+      {
+        "name": "Pan integral",
+        "quantity": {
+          "number": 4,
+          "unit": "rebanadas"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 4000
+      },
+      {
+        "name": "Zumo de limón",
+        "quantity": {
+          "number": 1,
+          "unit": "taza"
+        },
+        "price": 1000
+      },
+      {
+        "name": "Levadura",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Pimienta molida",
+        "quantity": {
+          "number": 20,
+          "unit": "gramos"
+        },
+        "price": 1000
+      }
+    ]
+  },
+  {
+    "title": "Flan de arroz con manzana",
+    "description": "El ingrediente principal es el huevo, ya que, al cocerse al baño María, sus yemas se cuajan y toman la forma del molde, adquiriendo una textura ligera, gelatinosa y cremosa. Junto a los huevos, son necesarios otros ingredientes que le aportan sabor: generalmente, se trata de leche cocida con vainilla, canela o cáscara de limón; aunque también existen recetas que utilizan zumos y compotas de frutas.",
+    "instructions": "Hierve la leche de arroz con el sirope de agave, la canela y la corteza de limón. Disuelve la harina de maíz en un poco de agua y agrégala a la leche, removiendo sin parar con las varillas. Deja hervir cinco minutos. Echa un fondo de caramelo líquido en cada flanera. Retira la canela y la corteza de limón, y reparte la mezcla en las flaneras. Deja enfriar durante 5 horas y sírvelo acompañado de manzana deshidratada.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/flan.png",
+    "time": {
+      "number": 15,
+      "unit": "mins"
+    },
+    "people": 6,
+    "likes": 13,
+    "tag": "onces",
+    "ingredients": [
+      {
+        "name": "Leche",
+        "quantity": {
+          "number": 500,
+          "unit": "ml"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Sirope de agave",
+        "quantity": {
+          "number": 80,
+          "unit": "gramos"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Rama de canela",
+        "quantity": {
+          "number": 1,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Harina de maíz",
+        "quantity": {
+          "number": 40,
+          "unit": "gramos"
+        },
+        "price": 2000
+      },
+      {
+        "name": "Caramelo líquido",
+        "quantity": {
+          "number": 6,
+          "unit": "cucharadas"
+        },
+        "price": 3000
+      }
+    ]
+  },
+  {
+    "title": "Granola de pistacho",
+    "description": "Es un alimento formado por nueces, copos de avena mezclados con miel y otros ingredientes naturales. La mezcla se hornea hasta que sea crujiente.",
+    "instructions": "Precalienta el horno a 180 °C y prepara una bandeja con papel para horno. Pela los pistachos y mézclalos a continuación en un cuenco con el resto de los ingredientes sólidos (los copos y la canela). Derrite el aceite de coco y añádelo a la mezcla. Agrega el jarabe de arce. Extiende la mezcla en la bandeja y hornea 8 minutos, o hasta que suelte un rico aroma. Deja que se enfríe en la bandeja. Guarda a temperatura ambiente en un envase de vidrio hermético.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/granola.png",
+    "time": {
+      "number": 15,
+      "unit": "mins"
+    },
+    "people": 2,
+    "likes": 23,
+    "tag": "onces",
+    "ingredients": [
+      {
+        "name": "Pistachos",
+        "quantity": {
+          "number": 250,
+          "unit": "gramos"
+        },
+        "price": 9000
+      },
+      {
+        "name": "Copos de avena",
+        "quantity": {
+          "number": 125,
+          "unit": "gramos"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Jarabe de arce",
+        "quantity": {
+          "number": 2,
+          "unit": "cucharadas"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Aceite de coco",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "title": "Pudding the chía",
+    "description": "Es un tipo de alimento de la cocina inglesa y estadounidense que puede ser un postre o un plato no dulce.",
+    "instructions": "Pela los plátanos y bátelos con la leche de almendras y las semillas de sésamo. Mezcla la chía con el batido. Déjalo reposar dos horas como mínimo para que el pudding espese.",
+    "imgUrl": "https://killcloud.nyc3.cdn.digitaloceanspaces.com/mealy/pudding.png",
+    "time": {
+      "number": 15,
+      "unit": "mins"
+    },
+    "people": 2,
+    "likes": 33,
+    "tag": "onces",
+    "ingredients": [
+      {
+        "name": "Chía",
+        "quantity": {
+          "number": 4,
+          "unit": "cucharadas"
+        },
+        "price": 4400
+      },
+      {
+        "name": "Leche de almendras",
+        "quantity": {
+          "number": 150,
+          "unit": "ml"
+        },
+        "price": 3000
+      },
+      {
+        "name": "Plátanos maduros",
+        "quantity": {
+          "number": 2,
+          "unit": ""
+        },
+        "price": 1000
+      },
+      {
+        "name": "Semillas de sésamo",
+        "quantity": {
+          "number": 1,
+          "unit": "cucharada"
+        },
+        "price": 2000
+      }
+    ]
+  }
+]
