@@ -5,6 +5,7 @@ const recipeIdSchema = joi.object({
 });
 const recipeTitleSchema = joi.string().max(50);
 const recipeDescriptionSchema = joi.string().max(300);
+const recipeInstructionsSchema = joi.string().max(500);
 const recipeImgUrlSchema = joi.string().uri();
 const recipeTimeSchema = joi.object({
   number: joi.number().min(1),
@@ -25,6 +26,7 @@ const recipeIngredientsSchema = joi.array().items(joi.object({
 const createRecipeSchema = joi.object({
   title: recipeTitleSchema.required(),
   description: recipeDescriptionSchema.required(),
+  instructions: recipeInstructionsSchema.required(),
   imgUrl: recipeImgUrlSchema.required(),
   time: recipeTimeSchema.required(),
   people: recipePeopleSchema.required(),
@@ -36,6 +38,7 @@ const createRecipeSchema = joi.object({
 const updateRecipeSchema = joi.object({
   title: recipeTitleSchema,
   description: recipeDescriptionSchema,
+  instructions: recipeInstructionsSchema,
   imgUrl: recipeImgUrlSchema,
   time: recipeTimeSchema,
   people: recipePeopleSchema,
