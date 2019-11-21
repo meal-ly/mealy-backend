@@ -1,0 +1,12 @@
+{
+  "name": "mealy",
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }],
+  "env": {
+    "DB_USER": "@mealy-db-user",
+    "DB_PASSWORD": "@mealy-db-pass",
+    "DB_HOST":"@mealy-db-host",
+    "DB_NAME":"@mealy-db-name"
+  }
+}
